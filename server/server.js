@@ -21,7 +21,7 @@ webpush.setVapidDetails(
 );
 
 app.get('/', (_req, res) => {
-    res.send('Hello world!');
+    res.send('Server is up!!!');
 });
 
 app.post('/notifications/subscribe', async ({ body }, res) => {
